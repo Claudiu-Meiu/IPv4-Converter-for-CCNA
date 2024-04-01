@@ -266,28 +266,6 @@ def hexadecimal_to_binary():
         if hex_address == "dec2bin": print("------------------------------------------------------"), decimal_to_binary()
         if hex_address == "dec2hex": print("------------------------------------------------------"), decimal_to_hexadecimal()
         if hex_address == "bin2dec": print("------------------------------------------------------"), binary_to_decimal()
-        if hex_address == "bin2hex": print("------------------------------------------------------"), binary_to_hexadecimal()
-        if hex_address == "hex2dec": print("------------------------------------------------------"), hexadecimal_to_decimal()
-        if hex_address == "menu": menu()
-        # Validation of input IPv4 address
-        if not re.match(r'^([0-9A-Fa-f]{2}\.){3}[0-9A-Fa-f]{2}$', hex_address):
-            print("\nEnter a valid IPv4 address in hexadecimal format!\n"
-                  "\n------------------------------------------------------")
-        else:
-            # Splitting the hexadecimal IP address into octets
-            octets = hex_address.split(".")
-            decimal_octets = []
-            for octet in octets:
-                decimal_octet_first = octet[0]
-                decimal_octet_second = octet[1]
-                decimal_oct
-
-        # Handling special commands
-        if hex_address == "clear": clear_terminal(), hexadecimal_to_binary()
-        # Redirecting to other conversion functions
-        if hex_address == "dec2bin": print("------------------------------------------------------"), decimal_to_binary()
-        if hex_address == "dec2hex": print("------------------------------------------------------"), decimal_to_hexadecimal()
-        if hex_address == "bin2dec": print("------------------------------------------------------"), binary_to_decimal()
         if hex_address == "hex2dec": print("------------------------------------------------------"), hexadecimal_to_decimal()
         if hex_address == "hex2bin": print("------------------------------------------------------"), hexadecimal_to_binary()
         if hex_address == "menu": menu()
