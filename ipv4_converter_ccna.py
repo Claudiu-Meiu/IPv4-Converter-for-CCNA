@@ -1,3 +1,6 @@
+# Made by Claudiu Meiu
+# version 1.0
+
 import re
 import os
 
