@@ -6,7 +6,7 @@
 
 ```
 git clone https://github.com/Claudiu-Meiu/IPv4-Converter-for-CCNA.git
-cd IPv4_Converter_for_CCNA
+cd IPv4-Converter-for-CCNA
 python3 ipv4_converter_ccna.py
 ```
 ## How to run (Windows)
