@@ -1,6 +1,6 @@
 ## A simple python script I created while learning subnetting. It can be helpful if you are studying for the CCNA exam.
 
-![alt text](https://github.com/Claudiu-Meiu/IPv4_Converter_for_CCNA/blob/main/example.png?raw=true)
+![alt text](https://github.com/Claudiu-Meiu/IPv4_Converter_for_CCNA/blob/main/Ipv4-converter.webp?raw=true)
 
 ## How to run (Linux)
 
